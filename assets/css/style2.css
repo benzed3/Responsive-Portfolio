@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+    background: rgb(223, 217, 210);
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background: white;
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+}  
+#name {
+    background: #4aaaa5;
+    width: 270px;
+    margin: 0;
+    padding: 25px 20px 25px 20px;
+    position: relative;
+    left: 290px;
+}
+#pcon {
+    background: white;
+    width: 260px;
+    clear: both;
+    float: right;
+    padding: 25px 0 25px 0;
+    position: relative;
+    right: 290px;
+    bottom: 102px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: gray;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+}
+#three {
+    float: left;
+    width: 33%;
+}
+#two {
+    float: left;
+    width: 33%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgray;
+}
+#one {
+    float: left;
+    width: 33%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgray;
+}
+#main {
+    background: #ffffff;
+    width: 960px;
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    bottom: 50px;
+    height: 450px;
+    padding-top: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+#contact {
+    text-align: left;
+    color: #4aaaa5;
+    position: relative;
+    left: 25px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    margin-right: 55px;
+    padding-bottom: 25px;
+}
+#box1 {
+    width: 93%;
+}
+#box2 {
+    width: 93%;
+}
+#box3 {
+    width: 93%;
+    height: 85px;
+}
+#n {
+    position: relative;
+    right: 45%;
+    color: gray;
+}
+#e {
+    position: relative;
+    right: 45%;
+    color: gray;
+}
+#m {
+    position: relative;
+    right: 44%;
+    color: gray;
+}
+#btn {
+    clear: both;
+    background: #4aaaa5;
+    position: relative;
+    right: 43.5%;
+    color: white;
+    padding: 7px 12px 7px 12px;
+    border: none;
+}
+#footer {
+    background: grey;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 7px;
+}
+
+@media screen and (max-width: 980px) {
+    #name {
+        position: relative;
+        left: 45px;
+    }
+    #pcon {
+        position: relative;
+        right: 40px;
+        margin-right: 0;
+    }
+    #main {
+        margin: 0 0 0 45px;
+        width: 600px;
+        height: 450px;
+    }
+    #btn {
+        position: relative;
+        right: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #name {
+        position: relative;
+        left: 20px;
+    }
+    #pcon {
+        position: relative;
+        right: 5px;
+        margin-right: 0;
+    }
+    #main {
+        width: 720px;
+        height: 450px;
+        margin-left: 20px;
+    }
+    #btn {
+        position: relative;
+        right: 305px;
+    }
+}
