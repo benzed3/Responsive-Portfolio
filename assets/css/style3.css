@@ -21,6 +21,9 @@ body {
     position: relative;
     left: 290px;
 }
+a {
+    color:gray;
+    text-decoration: none;
 #pcon {
     background: white;
     width: 260px;
