@@ -130,3 +130,18 @@ img {
         height: 500px;
         margin-left: 20px;
     }
+
+    @media screen and (max-width: 640px) {
+        #name {
+            background: green;
+            width: 100%;
+            position: relative;
+            left: .5px;
+        }
+        #pcon {
+            position: relative;
+            top: .5px;
+            margin-right: 0;
+            width: 100%;
+        }
+    }
